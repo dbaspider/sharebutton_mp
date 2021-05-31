@@ -1,0 +1,12 @@
+<!--pages/share/share.wxml-->
+<!-- <text>pages/share/share.wxml</text> -->
+<view class='container'>
+    <button class='back-btn' bindtap='goBack'>
+        <view class='text-back'>
+            <text>返回</text>
+        </view>
+    </button>
+    <button class='share-btn' open-type='share' size="mini" type="primary">
+        <view class="text-share" >分享</view>
+    </button>
+</view>

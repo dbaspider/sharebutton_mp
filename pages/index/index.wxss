@@ -1,0 +1,53 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+/* share button */
+.share { 
+  height: 120rpx;
+  width: 120rpx;
+  position: fixed;
+  bottom: 170rpx;
+  right: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+  background: rgba(51, 153, 51, 1);
+  border-radius: 50%;
+  z-index: 10;
+} 
+
+.share image {
+  height: 70rpx;
+  width: 70rpx;
+}
+
+.share text {
+  color: #fff;  
+}
+
+.share button {
+  position: absolute;
+  height: 100%;
+  width: 120rpx !important;
+  opacity: 0.1;
+  z-index: 99;
+}

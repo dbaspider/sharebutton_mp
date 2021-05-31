@@ -1,0 +1,45 @@
+/* pages/share/share.wxss */
+.share-btn{
+    position: fixed;
+    right: 20rpx;
+    bottom: 50rpx;      
+    /* line-height: 30rpx; */
+    /* text-align: center; */
+    /* background-color: rgba(15, 107, 228, 0.966); */
+    /* font-size: 30rpx !important; */
+    height: 100rpx !important; 
+    width: 100rpx !important;
+    /* line-height: 1 !important; */
+    border-radius: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;    
+}
+
+.text-share {
+    margin: 0;
+    color: white;
+    font-size: 20rpx;
+    text-align: center;
+    justify-content: center;
+    height: 100rpx !important; 
+    width: 100rpx !important;    
+}
+
+.share-btn::after {
+    border: 0;
+}
+
+.text-share image {
+    width: 36px;
+    height: 36px;
+}
+
+.back-btn text {
+    vertical-align: middle;
+    color: #d3176f;
+}
+
+.back-btn::after{
+    border: 0;
+}
